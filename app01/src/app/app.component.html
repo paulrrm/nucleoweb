@@ -3,15 +3,32 @@
 <button (click)="cambioColor()"  class="btn --bs-btn-active-bg">Diurno-Nocturno</button>
 
 <br>
+<button (click)="diurno()"  class="btn --bs-btn-active-bg">Diurno</button>
+
+<br>
+<button (click)="darckmode()"  class="btn --bs-btn-active-bg">Nocturno</button>
+
 <br>
 
-@if (nocturno == true) {
+@if (nocturno === true) {
     <app-tabla2></app-tabla2>
 }@else {
 
     <app-tabla1></app-tabla1>
 }
+<br>
+<app-iteracion></app-iteracion>
+<br>
+<app-filtro></app-filtro>
+<div class="container">
+    @if(filtro) {
+        
+    }
+    @else{
 
+    }
+    
+</div>
 
 
 

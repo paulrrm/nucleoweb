@@ -1,0 +1,21 @@
+<p>filtro works!</p>
+<p>iteracion works!</p>
+<p>USO DE FOR</p>
+
+<input type="text" [(ngModel)]= "binding" >
+
+<table class="table table-striped">
+    <tr>
+        <th>Título</th>
+        <th>Año</th>
+        </tr>
+    @for (item of pelicula; track item) {
+        @if(item.anio  == binding){
+            <tr>
+                <td>{{item.titulo}}</td>
+                <td>{{item.anio}}</td>
+            </tr>
+        }
+    }
+</table>
+ 
