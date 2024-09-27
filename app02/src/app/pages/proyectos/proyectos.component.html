@@ -1,4 +1,10 @@
 <h2>Proyectos presonales</h2>
+<select name="" id="" [(ngModel)]="opcion">
+
+  @for(item of proyectos; track proyectos){
+    <option value="{{ item.tecnologia }}">{{ item.tecnologia }}</option>
+  }
+</select>
 
 <table class="table table-striped">
   <thead>
@@ -7,17 +13,22 @@
       <th>Tecnologia</th>
       <th>Lenguajes</th>
       <th>Horas</th>
+      <th>Ver detalles</th>
     </tr>
   </thead>
   <tbody>
     @for(item of proyectos;track proyectos ){
-    <tr>
-      <td>{{ item.id }}</td>
-      <td>{{ item.lenguaje }}</td>
-      <td>{{ item.tecnologia }}</td>
-      <td>{{ item.tiempo_desarrollo }}</td>
-    </tr>
-
+      @if (item.tecnologia == opcion) {
+          <tr>
+            <td>{{ item.id }}</td>
+            <td>{{ item.lenguaje }}</td>
+            <td>{{ item.tecnologia }}</td>
+            <td>{{ item.tiempo_desarrollo }}</td>
+            <td><a routerLink="{{item.id}}">Ver detalles</a></td>
+            <!-- <td><a routerLink="{{item.id}}">Ver detalles</a></td> -->
+            <!--<td><a routerLink="/proyectos/{{ item.id }}">Ver detalles</a></td>  -->
+          </tr>
+      }
     }
   </tbody>
 </table>

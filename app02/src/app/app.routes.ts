@@ -4,6 +4,7 @@ import { SobreMiComponent } from './pages/sobre-mi/sobre-mi.component';
 import { ProyectosComponent } from './pages/proyectos/proyectos.component';
 import { ContactanosComponent } from './pages/contactanos/contactanos.component';
 import { Error404Component } from './pages/error404/error404.component';
+import { DetallesproyectosComponent } from './pages/detallesproyectos/detallesproyectos.component';
 
 export const routes: Routes = [
 
@@ -11,6 +12,7 @@ export const routes: Routes = [
   {path: 'sobremi', component: SobreMiComponent},
   {path: 'proyectos', component: ProyectosComponent},
   {path: 'contactanos', component: ContactanosComponent},
+  {path: 'proyectos/:id', component: DetallesproyectosComponent },
 
   {path: '', redirectTo: 'inicio',pathMatch: 'full'},
   {path: '**', component: Error404Component},
