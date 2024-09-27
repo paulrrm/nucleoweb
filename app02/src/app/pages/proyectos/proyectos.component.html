@@ -1,1 +1,23 @@
-<p>proyectos works!</p>
+<h2>Proyectos presonales</h2>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Tecnologia</th>
+      <th>Lenguajes</th>
+      <th>Horas</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for(item of proyectos;track proyectos ){
+    <tr>
+      <td>{{ item.id }}</td>
+      <td>{{ item.lenguaje }}</td>
+      <td>{{ item.tecnologia }}</td>
+      <td>{{ item.tiempo_desarrollo }}</td>
+    </tr>
+
+    }
+  </tbody>
+</table>
