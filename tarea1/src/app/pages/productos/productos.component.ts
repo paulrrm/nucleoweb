@@ -10,6 +10,17 @@ import { RouterLink } from '@angular/router';
 })
 export class ProductosComponent {
 
+  tabla_lista=false
+  claro_oscuro=false;
+
+  cambiar_vista(){
+    this.tabla_lista =!this.tabla_lista;
+    
+  }
+  cambiar_color(){
+    this.claro_oscuro =!this.claro_oscuro;
+  }
+  
 
   productos = [
       {

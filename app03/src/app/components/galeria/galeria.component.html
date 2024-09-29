@@ -1,0 +1,23 @@
+<div class="row">
+
+  @for (item of peliculas; track item) {
+
+
+      <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="{{item.posterURL}}">
+              <img src="" alt="Lights" style="width:60%">
+              <div class="caption">
+                <a routerLink="{{item.id}}" >Ver</a>
+                <p>{{item.title}}</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+  
+  }
+
+   
+</div>
+  

@@ -1,23 +1,83 @@
 <p>Lista productos</p>
+<button (click)="cambiar_color()">COLOR</button>
+<button (click)="cambiar_vista()">VISTA</button>
 
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col">Nombre</th>
-      <th scope="col">Precio</th>
-      <th scope="col">Stock</th>
-      <th scope="col">Link</th>
-    </tr>
-  </thead>
-  <tbody>
-    @for (item of productos; track productos) {
+@if(claro_oscuro && tabla_lista){
+  <table class="table">
+    <thead>
       <tr>
-      <td>{{item.nombre}}</td>
-      <td>{{item.precio}}</td>
-      <td>{{item.stock}}</td>
-      <td><a routerLink="{{item.id}}">Ver detalles</a></td>
-    </tr>
-    }
+        <th scope="col">Nombre</th>
+        <th scope="col">Precio</th>
+        <th scope="col">Stock</th>
+        <th scope="col">Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (item of productos; track productos) {
+        <tr>
+        <td>{{item.nombre}}</td>
+        <td>{{item.precio}}</td>
+        <td>{{item.stock}}</td>
+        <td><a routerLink="{{item.id}}">Ver detalles</a></td>
+      </tr>
+      }
+  
+    </tbody>
+  </table>
+}@else if(claro_oscuro && !tabla_lista){
+  
+  @for (item of productos; track productos) {
+    
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{item.nombre}}</h5>
+        <p class="card-text">{{item.categoria}}</p>
+        <a routerLink="{{item.id}}" class="btn btn-primary">Ver</a>
+      </div>
+    </div>
+  }
+}
+@else if(!claro_oscuro && tabla_lista){
+  
+  <table class="table table-dark">
+    <thead>
+      <tr>
+        <th scope="col">Nombre</th>
+        <th scope="col">Precio</th>
+        <th scope="col">Stock</th>
+        <th scope="col">Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (item of productos; track productos) {
+        <tr>
+        <td>{{item.nombre}}</td>
+        <td>{{item.precio}}</td>
+        <td>{{item.stock}}</td>
+        <td><a routerLink="{{item.id}}">Ver detalles</a></td>
+      </tr>
+      }
+  
+    </tbody>
+  </table>
+}
+@else if(!claro_oscuro && !tabla_lista){
 
-  </tbody>
-</table>
+  @for (item of productos; track productos) {
+    
+    <div class="card" style="width: 18rem; background-color: gray; ">
+      <img class="card-img-top" src="" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{item.nombre}}</h5>
+        <p class="card-text">{{item.categoria}}</p>
+        <a routerLink="{{item.id}}" class="btn btn-primary">Ver</a>
+      </div>
+    </div>
+  }
+
+}
+  @else{
+    
+  }
+
