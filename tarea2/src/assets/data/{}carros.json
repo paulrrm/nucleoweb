@@ -1,0 +1,106 @@
+{
+  "vehiculos": [
+    {
+      "marca": "Toyota",
+      "modelo": "Corolla",
+      "año": 2021,
+      "color": "Blanco",
+      "kilometraje": 15000,
+      "transmision": "Automática",
+      "precio": 18000,
+      "combustible": "Gasolina"
+    },
+    {
+      "marca": "Ford",
+      "modelo": "Fiesta",
+      "año": 2019,
+      "color": "Rojo",
+      "kilometraje": 30000,
+      "transmision": "Manual",
+      "precio": 12000,
+      "combustible": "Gasolina"
+    },
+    {
+      "marca": "Volkswagen",
+      "modelo": "Golf",
+      "año": 2020,
+      "color": "Negro",
+      "kilometraje": 22000,
+      "transmision": "Automática",
+      "precio": 20000,
+      "combustible": "Diésel"
+    },
+    {
+      "marca": "Tesla",
+      "modelo": "Model 3",
+      "año": 2022,
+      "color": "Azul",
+      "kilometraje": 5000,
+      "transmision": "Automática",
+      "precio": 35000,
+      "combustible": "Eléctrico"
+    },
+    {
+      "marca": "BMW",
+      "modelo": "Serie 3",
+      "año": 2018,
+      "color": "Gris",
+      "kilometraje": 45000,
+      "transmision": "Automática",
+      "precio": 25000,
+      "combustible": "Gasolina"
+    },
+    {
+      "marca": "Audi",
+      "modelo": "A4",
+      "año": 2019,
+      "color": "Blanco",
+      "kilometraje": 32000,
+      "transmision": "Automática",
+      "precio": 27000,
+      "combustible": "Gasolina"
+    },
+    {
+      "marca": "Mercedes-Benz",
+      "modelo": "Clase C",
+      "año": 2020,
+      "color": "Plata",
+      "kilometraje": 18000,
+      "transmision": "Automática",
+      "precio": 30000,
+      "combustible": "Diésel"
+    },
+    {
+      "marca": "Hyundai",
+      "modelo": "Tucson",
+      "año": 2021,
+      "color": "Verde",
+      "kilometraje": 10000,
+      "transmision": "Automática",
+      "precio": 22000,
+      "combustible": "Gasolina"
+    },
+    {
+      "marca": "Nissan",
+      "modelo": "Qashqai",
+      "año": 2020,
+      "color": "Naranja",
+      "kilometraje": 25000,
+      "transmision": "Manual",
+      "precio": 19000,
+      "combustible": "Gasolina"
+    },
+    {
+      "marca": "Renault",
+      "modelo": "Clio",
+      "año": 2017,
+      "color": "Amarillo",
+      "kilometraje": 50000,
+      "transmision": "Manual",
+      "precio": 11000,
+      "combustible": "Gasolina"
+    }
+  ]
+,
+  "usuarios": []
+}
