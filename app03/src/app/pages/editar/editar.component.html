@@ -1,0 +1,18 @@
+<p>formulario works!</p>
+<form (ngSubmit)="guardar(formulario)" #formulario="ngForm">
+    <label>Ingrese cedula</label>
+    <input type="text" name="id" class="form-control" [(ngModel)]="id">
+    <br>
+    <label>Nombre y apellido</label>
+    <input type="text" name="nombre" class="form-control" [(ngModel)]="nombre">
+    <br>
+    <label>Edad</label>
+    <input type="number" name="edad" class="form-control" [(ngModel)]="edad" >
+    <label >Genero</label>
+    <select [(ngModel)]="genero" name="genero">
+        <option value="masculino">Masculino</option>
+        <option value="femenino">Femenino</option>
+    </select>
+    <br>
+    <button class="btn btn-primary border-t-cyan-800 py-11" type = 'submit'>REGISTRAR</button>
+</form>

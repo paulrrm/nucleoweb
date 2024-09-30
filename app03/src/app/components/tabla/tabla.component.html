@@ -1,0 +1,26 @@
+<p>tabla works!</p>
+<table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>Genero</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (item of personal; track personal) {
+
+        <tr>
+            <td>{{item.id}}</td>
+            <td>{{item.nombre}}</td>
+            <td>{{item.edad}}</td>
+            <td>{{item.genero}}</td>
+            <td>
+                <button class="btn btn-success" [routerLink]="['/editar',item.id]" routerLinkActive="router-link-active" >Editar</button>
+            </td>
+          </tr>
+      }
+      
+    </tbody>
+  </table>

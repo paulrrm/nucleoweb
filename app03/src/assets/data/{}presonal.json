@@ -1,0 +1,17 @@
+{
+  "personal": [
+    {
+      "id": "1212121",
+      "nombre": "23213",
+      "edad": 1,
+      "genero": "masculino"
+    },
+    {
+      "id": "213213",
+      "nombre": "23213",
+      "edad": 22,
+      "genero": "masculino"
+    }
+  ],
+  "series": []
+}
