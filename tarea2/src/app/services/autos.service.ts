@@ -13,4 +13,13 @@ export class AutosService {
  getVehiculos(): Observable<any> {
    return this.http.get<any>(this.API_AUTO);
  }
+ getVehiculo(id: number): Observable<any> {
+   return this.http.get<any>(`${this.API_AUTO}/${id}`);
+ }
+ editaVehiculo(vehiculo: any): Observable<any> {
+   return this.http.put<any>(`${this.API_AUTO}/${vehiculo.id}`, vehiculo);
+ }
+ eliminaVehiculo(id: number): Observable<any> {
+   return this.http.delete<any>(`${this.API_AUTO}/${id}`);
+ }
 }

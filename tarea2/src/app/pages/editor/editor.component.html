@@ -1,0 +1,24 @@
+<p>editor works!</p>
+<p>formulario works!</p>
+<form (ngSubmit)="guardar(formulario)" #formulario="ngForm">
+    <label>Ingrese cedula</label>
+    <input type="text" name="id" class="form-control" [(ngModel)]="id">
+    <br>
+    <label>Nombre y apellido</label>
+    <input type="text" name="marca" class="form-control" [(ngModel)]="marca">
+    <br>
+    <label>Edad</label>
+    <input type="number" name="anio" class="form-control" [(ngModel)]="anio" >
+    <label >Color</label>
+    <input type="text" name="color" class="form-control" [(ngModel)]="color" >
+    <label >kilometraje</label>
+    <input type="text" name="kilometraje" class="form-control" [(ngModel)]="kilometraje" >
+    <label >transmision</label>
+    <input type="text" name="transmision" class="form-control" [(ngModel)]="transmision" >
+    <label >precio</label>
+    <input type="number" name="precio" class="form-control" [(ngModel)]="precio" >
+    <label >combustible</label>
+    <input type="text" name="combustible" class="form-control" [(ngModel)]="combustible" >
+    <br>
+    <button class="btn btn-primary border-t-cyan-800 py-11" type = 'submit'>REGISTRAR</button>
+</form>

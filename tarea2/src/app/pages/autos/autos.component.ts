@@ -1,23 +1,18 @@
-import { Component,  } from '@angular/core';
-import { AutosService } from '../../services/autos.service';
-import { CommonModule } from '@angular/common';
+import { Component } from '@angular/core';
+import { ListadeautosComponent } from '../../components/listadeautos/listadeautos.component';
+
 
 
 @Component({
   selector: 'app-autos',
   standalone: true,
-  imports: [CommonModule],
+  imports: [ListadeautosComponent],
   templateUrl: './autos.component.html',
   styleUrl: './autos.component.css'
 })
 export class AutosComponent {
 
-  constructor(private servicio : AutosService){}
-  autos: any
-  ngOnInit(): void {
-    this.servicio.getVehiculos().subscribe( autos => this.autos = autos);
-    console.log(this.autos);
-  }
+  
 
 
 

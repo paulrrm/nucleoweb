@@ -1,19 +1,10 @@
 {
   "vehiculos": [
     {
-      "marca": "Toyota",
-      "modelo": "Corolla",
-      "año": 2021,
-      "color": "Blanco",
-      "kilometraje": 15000,
-      "transmision": "Automática",
-      "precio": 18000,
-      "combustible": "Gasolina"
-    },
-    {
+      "id": 2,
       "marca": "Ford",
       "modelo": "Fiesta",
-      "año": 2019,
+      "anio": 2019,
       "color": "Rojo",
       "kilometraje": 30000,
       "transmision": "Manual",
@@ -21,9 +12,10 @@
       "combustible": "Gasolina"
     },
     {
+      "id": 3,
       "marca": "Volkswagen",
       "modelo": "Golf",
-      "año": 2020,
+      "anio": 2020,
       "color": "Negro",
       "kilometraje": 22000,
       "transmision": "Automática",
@@ -31,9 +23,10 @@
       "combustible": "Diésel"
     },
     {
+      "id": 4,
       "marca": "Tesla",
       "modelo": "Model 3",
-      "año": 2022,
+      "anio": 2022,
       "color": "Azul",
       "kilometraje": 5000,
       "transmision": "Automática",
@@ -41,9 +34,10 @@
       "combustible": "Eléctrico"
     },
     {
+      "id": 5,
       "marca": "BMW",
       "modelo": "Serie 3",
-      "año": 2018,
+      "anio": 2018,
       "color": "Gris",
       "kilometraje": 45000,
       "transmision": "Automática",
@@ -51,9 +45,10 @@
       "combustible": "Gasolina"
     },
     {
+      "id": 6,
       "marca": "Audi",
       "modelo": "A4",
-      "año": 2019,
+      "anio": 2019,
       "color": "Blanco",
       "kilometraje": 32000,
       "transmision": "Automática",
@@ -61,9 +56,10 @@
       "combustible": "Gasolina"
     },
     {
+      "id": 7,
       "marca": "Mercedes-Benz",
       "modelo": "Clase C",
-      "año": 2020,
+      "anio": 2020,
       "color": "Plata",
       "kilometraje": 18000,
       "transmision": "Automática",
@@ -71,9 +67,10 @@
       "combustible": "Diésel"
     },
     {
+      "id": 8,
       "marca": "Hyundai",
       "modelo": "Tucson",
-      "año": 2021,
+      "anio": 2021,
       "color": "Verde",
       "kilometraje": 10000,
       "transmision": "Automática",
@@ -81,9 +78,10 @@
       "combustible": "Gasolina"
     },
     {
+      "id": 9,
       "marca": "Nissan",
       "modelo": "Qashqai",
-      "año": 2020,
+      "anio": 2020,
       "color": "Naranja",
       "kilometraje": 25000,
       "transmision": "Manual",
@@ -91,16 +89,16 @@
       "combustible": "Gasolina"
     },
     {
+      "id": 10,
       "marca": "Renault",
       "modelo": "Clio",
-      "año": 2017,
+      "anio": 2017,
       "color": "Amarillo",
       "kilometraje": 50000,
       "transmision": "Manual",
       "precio": 11000,
       "combustible": "Gasolina"
     }
-  ]
-,
+  ],
   "usuarios": []
 }

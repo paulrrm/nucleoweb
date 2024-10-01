@@ -1,0 +1,18 @@
+<p>listadeautos works!</p>
+{{auto|json}}
+<div class="row">
+    @for (item of auto; track auto) {
+        <div class="col-md-4">
+            <div class="thumbnail">
+              
+                <img src="https://img.freepik.com/vector-premium/dibujo-auto-sol-detras_410516-82247.jpg" alt="Fjords" style="width:50%">
+                <p>Modelo: {{item.modelo}}</p>
+                <p>Marca: {{item.marca}}</p>
+                <a routerLink="{{item.id}}" >Ver</a>
+                
+              
+            </div>
+          </div>
+    }
+
+</div>
