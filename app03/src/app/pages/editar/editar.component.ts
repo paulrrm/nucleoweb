@@ -19,12 +19,7 @@ ngOnInit() {
       this.id = params['idPersonal'];
 
   });
-  this.servicio.getPersonalById(this.id).subscribe(p => {
-    console.log(p);
-    this.genero =  p.genero;
-    this.edad = p.edad;
-    this.nombre = p.nombre;
-  });
+  
 }
 genero: any;
 edad: any;

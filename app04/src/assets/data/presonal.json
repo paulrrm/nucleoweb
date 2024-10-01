@@ -1,0 +1,175 @@
+{
+  "personas": [
+    {
+      "name": "Alice",
+      "age": 30,
+      "gender": "female",
+      "occupation": "teacher"
+    },
+    {
+      "name": "Bob",
+      "age": 25,
+      "gender": "male",
+      "occupation": "engineer"
+    }
+  ],
+  "series": [
+    {
+      "title": "Game of Thrones",
+      "author": "George R.R. Martin",
+      "genre": "fantasy",
+      "publication_year": 1996
+    },
+    {
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "genre": "fantasy",
+      "publication_year": 1954
+    }
+  ],
+  "users": [
+    {
+      "email": "pruiz@gmail.com",
+      "password": "$2a$10$.Lt3Xe/Xqt3SvqU7uqwSaOwHgNlUc7ltYWwC4RedE2Fen06KoGtoS",
+      "id": 1
+    },
+    {
+      "email": "paul@gmail.com",
+      "password": "$2a$10$IiSIqJMHsrT9f.OXM.HR7Oxq23ZJqZd3jyBVerKoIi1opi6Hjochm",
+      "id": 2
+    },
+    {
+      "email": "prm@gmail.com",
+      "password": "$2a$10$yT2NF3owgPaQTd/0/GhRTuVUuOyLblXVV6aPXIUJ/YpNOepbai.sW",
+      "id": 3
+    },
+    {
+      "email": "paulruizm@gmail.com",
+      "password": "$2a$10$B004h0Hrcq8te8x0y7NqYOlUEGwE02pUNv6805Vd2R9jppmHOUG/y",
+      "id": 4
+    }
+  ], 
+  "libros": [
+    {
+      "id": 1,
+      "titulo": "Cien años de soledad",
+      "autor": "Gabriel García Márquez",
+      "anio_publicacion": 1967,
+      "genero": "Realismo mágico",
+      "isbn": "978-84-376-0494-7"
+    },
+    {
+      "id": 2,
+      "titulo": "Don Quijote de la Mancha",
+      "autor": "Miguel de Cervantes",
+      "anio_publicacion": 1605,
+      "genero": "Novela de caballería",
+      "isbn": "978-84-376-0493-0"
+    },
+    {
+      "id": 3,
+      "titulo": "1984",
+      "autor": "George Orwell",
+      "anio_publicacion": 1949,
+      "genero": "Ciencia ficción distópica",
+      "isbn": "978-84-376-0495-4"
+    },
+    {
+      "id": 4,
+      "titulo": "El principito",
+      "autor": "Antoine de Saint-Exupéry",
+      "anio_publicacion": 1943,
+      "genero": "Novela corta",
+      "isbn": "978-84-376-0496-1"
+    },
+    {
+      "id": 5,
+      "titulo": "Crimen y castigo",
+      "autor": "Fiódor Dostoyevski",
+      "anio_publicacion": 1866,
+      "genero": "Novela psicológica",
+      "isbn": "978-84-376-0497-8"
+    },
+    {
+      "id": 6,
+      "titulo": "Orgullo y prejuicio",
+      "autor": "Jane Austen",
+      "anio_publicacion": 1813,
+      "genero": "Novela romántica",
+      "isbn": "978-84-376-0498-5"
+    },
+    {
+      "id": 7,
+      "titulo": "Matar a un ruiseñor",
+      "autor": "Harper Lee",
+      "anio_publicacion": 1960,
+      "genero": "Ficción sureña",
+      "isbn": "978-84-376-0499-2"
+    },
+    {
+      "id": 8,
+      "titulo": "La metamorfosis",
+      "autor": "Franz Kafka",
+      "anio_publicacion": 1915,
+      "genero": "Ficción absurda",
+      "isbn": "978-84-376-0500-5"
+    },
+    {
+      "id": 9,
+      "titulo": "El gran Gatsby",
+      "autor": "F. Scott Fitzgerald",
+      "anio_publicacion": 1925,
+      "genero": "Ficción",
+      "isbn": "978-84-376-0501-2"
+    },
+    {
+      "id": 10,
+      "titulo": "En busca del tiempo perdido",
+      "autor": "Marcel Proust",
+      "anio_publicacion": 1913,
+      "genero": "Ficción moderna",
+      "isbn": "978-84-376-0502-9"
+    },
+    {
+      "id": 11,
+      "titulo": "Ulises",
+      "autor": "James Joyce",
+      "anio_publicacion": 1922,
+      "genero": "Ficción modernista",
+      "isbn": "978-84-376-0503-6"
+    },
+    {
+      "id": 12,
+      "titulo": "Las aventuras de Huckleberry Finn",
+      "autor": "Mark Twain",
+      "anio_publicacion": 1884,
+      "genero": "Ficción de aventuras",
+      "isbn": "978-84-376-0504-3"
+    },
+    {
+      "id": 13,
+      "titulo": "Los hermanos Karamázov",
+      "autor": "Fiódor Dostoyevski",
+      "anio_publicacion": 1880,
+      "genero": "Novela filosófica",
+      "isbn": "978-84-376-0505-0"
+    },
+    {
+      "id": 14,
+      "titulo": "El nombre de la rosa",
+      "autor": "Umberto Eco",
+      "anio_publicacion": 1980,
+      "genero": "Misterio histórico",
+      "isbn": "978-84-376-0506-7"
+    },
+    {
+      "id": 15,
+      "titulo": "La Odisea",
+      "autor": "Homero",
+      "anio_publicacion": "Siglo VIII a.C.",
+      "genero": "Épica clásica",
+      "isbn": "978-84-376-0507-4"
+    }
+  ]
+  
+}

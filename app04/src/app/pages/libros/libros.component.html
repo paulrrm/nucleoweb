@@ -1,0 +1,17 @@
+<div class="row">
+    @for (item of libros; track libros) {
+
+        <div class="col-md-2">
+            <div class="thumbnail">
+              <a href="https://static.vecteezy.com/system/resources/previews/007/517/574/non_2x/red-closed-book-school-collection-illustration-cartoon-style-on-a-white-background-vector.jpg">
+                <img src="https://static.vecteezy.com/system/resources/previews/007/517/574/non_2x/red-closed-book-school-collection-illustration-cartoon-style-on-a-white-background-vector.jpg" alt="Lights" style="width:100%">
+                
+                  
+                
+              </a>
+              <p>{{item.titulo}}</p>
+              <a routerLink="libros/{{item.id}}" >Detalles</a>
+            </div>
+          </div>
+    }
+  </div>
